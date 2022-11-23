@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/*@type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./index.html",
@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      signature:['Pacifico'],
+    },
   },
   plugins: [],
 }

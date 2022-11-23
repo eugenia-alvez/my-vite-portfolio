@@ -5,16 +5,16 @@ const About = () => {
   return (
     <div
       name="About me"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 via-gray-900 to-black text-white"
+      className="w-full h-full bg-gradient-to-b from-gray-800 via-gray-900 to-black text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto">
+      <div className="max-w-screen-lg p-4 mx-auto md:h-full">
         <div className="flex flex-col justify-center w-full h-full">
-          <div className="pb-8">
+          <div className="pb-4">
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
               About me
             </p>
           </div>
-          <div className="grid mt-10 shadow-md bg-opacity-70 shadow-gray-200 rounded-lg">
+          <div className="grid mt-10 pb-8 shadow-md bg-opacity-70 shadow-gray-200 rounded-lg">
             <p className="text-xl justify-around m-5">
               I'm very interested in joining the web development work field. I'm
               seeking to gain experience, I consider myself as a proactive
